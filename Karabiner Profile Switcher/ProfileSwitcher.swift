@@ -10,8 +10,7 @@ import Foundation
 import SwiftyJSON
 
 func enableProfile(profileName: String) {
-    let configFile = FileManager.default
-        .homeDirectoryForCurrentUser
+    let configFile = URL(fileURLWithPath: NSHomeDirectory())
         .appendingPathComponent(".config/karabiner/karabiner.json")
 
     guard let config = try? String(contentsOf: configFile, encoding: .utf8) else {
