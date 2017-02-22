@@ -56,9 +56,9 @@
 		OBJ_10 /* Karabiner Profile Switcher */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* IOUSBDetector.swift */,
 				OBJ_12 /* main.swift */,
 				OBJ_13 /* ProfileSwitcher.swift */,
+				OBJ_11 /* IOUSBDetector.swift */,
 			);
 			path = "Karabiner Profile Switcher";
 			sourceTree = SOURCE_ROOT;
