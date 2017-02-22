@@ -14,7 +14,6 @@ func enableProfile(profileName: String) {
         .homeDirectoryForCurrentUser
         .appendingPathComponent(".config/karabiner/karabiner.json")
 
-
     guard let config = try? String(contentsOf: configFile, encoding: .utf8) else {
         fatalError("Error when reading config file \(configFile)")
     }

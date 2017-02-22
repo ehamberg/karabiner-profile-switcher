@@ -47,7 +47,6 @@ class IOUSBDetector {
         } while (true)
     }
 
-
     init?(vendorID: Int, productID: Int) {
         self.vendorID = vendorID
         self.productID = productID
@@ -64,7 +63,6 @@ class IOUSBDetector {
         self.stopDetection()
     }
 
-
     func startDetection () -> Bool {
         guard matchedIterator == 0 else { return true }
 
@@ -76,13 +74,13 @@ class IOUSBDetector {
             (userData, iterator) in
             let detector = Unmanaged<IOUSBDetector>.fromOpaque(userData!).takeUnretainedValue()
             detector.dispatchEvent(event: .Matched, iterator: iterator)
-        };
+        }
 
         let termCallback: IOServiceMatchingCallback = {
             (userData, iterator) in
             let detector = Unmanaged<IOUSBDetector>.fromOpaque(userData!).takeUnretainedValue()
             detector.dispatchEvent(event: .Terminated, iterator: iterator)
-        };
+        }
 
         let selfPtr = Unmanaged.passUnretained(self).toOpaque()
 
@@ -114,7 +112,6 @@ class IOUSBDetector {
 
         return true
     }
-
 
     func stopDetection () {
         guard self.matchedIterator != 0 else { return }

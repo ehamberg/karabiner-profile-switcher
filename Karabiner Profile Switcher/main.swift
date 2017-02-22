@@ -25,12 +25,11 @@ keyboardDetector?.callback = {
         print("Connected. Enabling default profile (\(defaultProfile))")
         enableProfile(profileName: defaultProfile)
     }
-};
+}
 
 _ = keyboardDetector?.startDetection()
 
-signal(2, {
-    signal in
+signal(2, { _ in
     keyboardDetector?.stopDetection()
     exit(0)
 })
