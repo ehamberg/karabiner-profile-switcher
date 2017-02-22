@@ -28,7 +28,6 @@
 		OBJ_11 /* IOUSBDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOUSBDetector.swift; sourceTree = "<group>"; };
 		OBJ_12 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_13 /* ProfileSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwitcher.swift; sourceTree = "<group>"; };
-		OBJ_15 /* Karabiner Profile Switcher */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Karabiner Profile Switcher"; sourceTree = SOURCE_ROOT; };
 		OBJ_17 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_18 /* Karabiner Profile Switcher */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Karabiner Profile Switcher"; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -86,7 +85,6 @@
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_14 /* Tests */,
-				OBJ_15 /* Karabiner Profile Switcher */,
 				OBJ_16 /* Products */,
 			);
 			name = "";
