@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Karabiner Profile Switcher",
+    name: "kps",
     dependencies: [
         .Package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
