@@ -1,6 +1,6 @@
 # Karabiner Profile Switcher
 
-Switch to a given [karabiner-elements](https://github.com/tekezo/Karabiner-Elements) profile when a specific keyboard is attached.
+Switch to a given [karabiner-elements](https://github.com/tekezo/Karabiner-Elements) profile when a specific USB keyboard is attached (and switch back to a default profile when it is removed).
 
 Usage:
 
