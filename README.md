@@ -22,7 +22,7 @@ The binary will end up in `.build/release/kps`.
 
 ## Running
 
-You probably want to run this as a [launchd agent](http://www.launchd.info). To do this, first make sure that it works when you run it from the shell. Then, when you know exactly which arguments it should take, create a launchd agent config in `~/Library/LaunchAgents/no.hamberg.karabiner-profile-switcher` with the following contents (replace the arguments and make sure the path to `kps` is correct):
+You probably want to run this as a [launchd agent](http://www.launchd.info). To do this, first make sure that it works when you run it from the shell. Then, when you know exactly which arguments it should take, create a launchd agent config in `~/Library/LaunchAgents/no.hamberg.karabiner-profile-switcher.plist` with the following contents (replace the arguments and make sure the path to `kps` is correct):
 
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
